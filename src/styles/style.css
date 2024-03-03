@@ -31,7 +31,7 @@ body {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
     margin-bottom: 0;
 }
@@ -70,4 +70,28 @@ button {
 .image-placeholder p {
     font: 18px;
     color: #f9faf8;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-image {
+    
+}
+
+.info-caption {
+    max-width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: dimgray;
 }
