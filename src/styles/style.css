@@ -27,6 +27,7 @@ body {
     font: 18px;
     color: #e5e7eb;
     margin-top: 0;
+    margin-bottom: 12px;
 }
 
 h1 {
@@ -52,6 +53,7 @@ button {
     align-items: stretch;
     gap: 32px;
     flex: auto;
+    justify-content: space-between;
 }
 
 .hero-section {
@@ -98,6 +100,7 @@ button {
     border: 4px #3882f6 solid;
     box-sizing: border-box;
     border-radius: 16px;
+    margin-bottom: 8px;
 }
 
 .info-caption {
@@ -152,4 +155,16 @@ button {
 
 .signup-container button {
     border: #f9faf8 solid 2px;
+}
+
+.copyright {
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: #f9faf8;
 }
